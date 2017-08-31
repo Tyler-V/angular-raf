@@ -1,0 +1,7 @@
+<div class="controls">
+    <button (click)="toggleStart()" [class.running]="running">
+{{ running ? 'Stop' : 'Start' }}
+</button>
+</div>
+
+<canvas #canvas>
